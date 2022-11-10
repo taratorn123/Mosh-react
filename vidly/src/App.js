@@ -1,11 +1,12 @@
-import './App.css';
+import "./App.css";
+import Movies from "./components/movies";
 
-function App() {
+const App = () => {
   return (
-    <main className='container'>
-    <h1>Hello World</h1>
+    <main className="container">
+      <Movies />
     </main>
   );
-}
+};
 
 export default App;
